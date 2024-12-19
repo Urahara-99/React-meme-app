@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+.meme-header{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #73008d, #d427fb);
+    color: aliceblue;
+    padding: 10px 20px;
+}
+.meme-header > img{
+    width: 40px;
+    margin-right: 8px;
+}
