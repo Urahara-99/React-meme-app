@@ -7,9 +7,9 @@ function App() {
   
   return (
     <>
-      {/* <Header/>
-      <Main /> */}
-      <FetchData />
+      <Header/>
+      <Main />
+      {/* <FetchData /> */}
     </>
   )
 }

@@ -9,6 +9,16 @@ const Main = () => {
         bottomText: "Walk into Mordor",
     });
 
+    React.useEffect(()=>{
+        fetch('https://api.imgflip.com/get_memes')
+        .then(res => res.json())
+        .then(data =>
+            {
+                (console.log(data.data.memes))
+            })
+        
+    }, [])
+
     function handleChange(event){
         const {value, name} = event.currentTarget;
         setMeme(prev=>({
